@@ -1,0 +1,64 @@
+Text: #include <iostream>		 Token: PREPROCESSOR.	 Line Number: 1
+Text: using namespace std;		 Token: KEYWORD_USING_NAMESPACE_STD.	 Line Number: 2
+Text: int		 Token: DATATYPE_INT.	 Line Number: 4
+Text: main		 Token: KEYWORD_MAIN.	 Line Number: 4
+Text: (		 Token: LEFT_PAREN.	 Line Number: 4
+Text: )		 Token: RIGHT_PAREN.	 Line Number: 4
+Text: {		 Token: LEFT_BRACE.	 Line Number: 4
+Text: int		 Token: DATATYPE_INT.	 Line Number: 5
+Text: num1		 Token: VARIABLE_DECLARED.	 Line Number: 5
+Text: =		 Token: ASSIGN.	 Line Number: 5
+Text: 10		 Token: INTCONST.	 Line Number: 5
+Text: ;		 Token: SEMI.	 Line Number: 5
+Text: int		 Token: DATATYPE_INT.	 Line Number: 6
+Text: num2		 Token: VARIABLE_DECLARED.	 Line Number: 6
+Text: =		 Token: ASSIGN.	 Line Number: 6
+Text: 20		 Token: INTCONST.	 Line Number: 6
+Text: ;		 Token: SEMI.	 Line Number: 6
+Text: float		 Token: DATATYPE_FLOAT.	 Line Number: 7
+Text: result_		 Token: VARIABLE_DECLARED.	 Line Number: 7
+Text: =		 Token: ASSIGN.	 Line Number: 7
+Text: 0.0		 Token: FLOATCONST.	 Line Number: 7
+Text: ;		 Token: SEMI.	 Line Number: 7
+Text: // RESULT IN NEXT		 Token: COMMENT.	 Line Number: 8
+Text: result_		 Token: VARIABLE_DECLARED.	 Line Number: 9
+Text: =		 Token: ASSIGN.	 Line Number: 9
+Text: num1		 Token: VARIABLE_DECLARED.	 Line Number: 9
+Text: +		 Token: ARITHEMETIC_OPERATOR.	 Line Number: 9
+Text: num2		 Token: VARIABLE_DECLARED.	 Line Number: 9
+Text: ;		 Token: SEMI.	 Line Number: 9
+Text: cout		 Token: LIBRARY_FUNC_OUTPUT.	 Line Number: 11
+Text: <<		 Token: STREAM_INSERTION.	 Line Number: 11
+Text: "The result is: "		 Token: STRING.	 Line Number: 11
+Text: <<		 Token: STREAM_INSERTION.	 Line Number: 11
+Text: result_		 Token: VARIABLE_DECLARED.	 Line Number: 11
+Text: <<		 Token: STREAM_INSERTION.	 Line Number: 11
+Text: endl		 Token: VARIABLE_DECLARED.	 Line Number: 11
+Text: ;		 Token: SEMI.	 Line Number: 11
+Text: if		 Token: KEYWORD_IF.	 Line Number: 13
+Text: (		 Token: LEFT_PAREN.	 Line Number: 13
+Text: result_		 Token: VARIABLE_DECLARED.	 Line Number: 13
+Text: >		 Token: COMPARISON_OPERATOR.	 Line Number: 13
+Text: 0		 Token: INTCONST.	 Line Number: 13
+Text: )		 Token: RIGHT_PAREN.	 Line Number: 13
+Text: {		 Token: LEFT_BRACE.	 Line Number: 13
+Text: cout		 Token: LIBRARY_FUNC_OUTPUT.	 Line Number: 14
+Text: <<		 Token: STREAM_INSERTION.	 Line Number: 14
+Text: "Result is positive."		 Token: STRING.	 Line Number: 14
+Text: <<		 Token: STREAM_INSERTION.	 Line Number: 14
+Text: endl		 Token: VARIABLE_DECLARED.	 Line Number: 14
+Text: ;		 Token: SEMI.	 Line Number: 14
+Text: }		 Token: RIGHT_BRACE.	 Line Number: 15
+Text: else		 Token: KEYWORD_ELSE.	 Line Number: 15
+Text: {		 Token: LEFT_BRACE.	 Line Number: 15
+Text: cout		 Token: LIBRARY_FUNC_OUTPUT.	 Line Number: 16
+Text: <<		 Token: STREAM_INSERTION.	 Line Number: 16
+Text: "Result is non-positive."		 Token: STRING.	 Line Number: 16
+Text: <<		 Token: STREAM_INSERTION.	 Line Number: 16
+Text: endl		 Token: VARIABLE_DECLARED.	 Line Number: 16
+Text: ;		 Token: SEMI.	 Line Number: 16
+Text: }		 Token: RIGHT_BRACE.	 Line Number: 17
+Text: return		 Token: KEYWORD_RETURN.	 Line Number: 19
+Text: 0		 Token: INTCONST.	 Line Number: 19
+Text: ;		 Token: SEMI.	 Line Number: 19
+Text: }		 Token: RIGHT_BRACE.	 Line Number: 20
